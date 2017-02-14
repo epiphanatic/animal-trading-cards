@@ -1,0 +1,42 @@
+/* add your CSS here */
+.container {
+    margin: 20px;
+    width: 330px;
+    border: solid 1px lightgray;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
+    box-shadow: 10px 10px 5px 0px rgba(227,227,227,1);
+}
+.grad {
+    background: #c1f5ff; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, white, #c1f5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, white, #c1f5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, white, #c1f5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, white, #c1f5ff); /* Standard syntax */
+}
+.details {
+    width: 280px;
+    padding: 0 10px 10px 10px;
+    border: solid 1px lightgray;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.inner {
+    display: table;
+    margin: 0 auto;
+}
+
+img {
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+.label {
+    font-weight: bold;
+}
+.fact {
+    font-style: italic;
+}
